@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to CSS</title>
+    <link rel="stylesheet" href="css/temp.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Introduction to CSS</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="what-is-css cont">
+                <div class="head">
+                    <h2>What is CSS?</h2>
+                </div>
+                <div class="body">
+                    <ul class="inside">
+                        <li><b>CSS</b> stands for <b>C</b>ascading <b>S</b>tyle <b>S</b>heets.</li>
+                        <li><b>CSS</b> describes how HTML elements are to be displayed on screen, paper, or in other media.</li>
+                        <li><b>CSS</b> saves a lot of work. It can control the layout of multiple web pages all at once.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="syntax cont">
+                <div class="head">
+                    <h2>CSS Syntax</h2>
+                </div>
+                <div class="body">
+                    <div class="content">
+                        <img src="images/syntax.png" alt="css-syntax">
+                    </div>
+                </div>
+            </div>
+
+            <div class="types cont">
+                <div class="head">
+                    <h2>Types of CSS</h2>
+                </div>
+                <div class="body">
+                    <ol class="inside">
+                        <li><b>Inline CSS :</b> involves applying styles directly to individual HTML elements using the style attribute.</li>
+                        Example: 
+                        <b>&lt;p</b> <ins>style</ins>="color: blue;"<b>&gt;</b>This text is blue.<b>&lt;/p&gt;</b><br>
+                        Output: <p style="color: blue; display: inline-block;">This text is blue.</p><br><br>
+                        
+                        <li><b>Internal CSS :</b> is defined within the HTML document’s <b>&lt;style&gt;</b> element.</li>
+                        Example:<br>
+                        <b>&lt;style&gt;</b><br>
+                        <b>&#x20;  p {</b><br>
+                            <b>&#x20;    color: blue;</b><br>
+                            <b>&#x20;  }</b><br>
+                            <b>&lt;/style&gt;</b><br>
+                            Output: <p style="color: blue; display: inline-block;">This text is blue.</p><br><br>
+
+                        <li><b>External CSS :</b> contains separate CSS files that contain only style properties with the help of tag attributes.</li>
+                        Example:
+                        <b>&lt;link</b> <ins>rel</ins>="stylesheet" <ins>type</ins>="text/css" <ins>href</ins>="style.css"<b>&gt;</b><br>
+                    </ol>
+                    
+                    <h3>Some Important points:</h3>
+                    <ul class="inside">
+                        <li><b>Inline CSS</b> has the highest priority, then comes <b>Internal/Embedded</b> followed by <b>External CSS</b> which has the least priority.</li>
+                        <li>As <b>Inline</b> has the highest priority, any styles that are defined in the <b>internal</b> and <b>external</b> style sheets are overridden by Inline styles.</li>
+                        <li><b>Internal or Embedded</b> stands second in the priority list and overrides the styles in the <b>external</b> style sheet.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="cont">
+                <div class="head"></div>
+                <div class="body"></div>
+            </div>
+
+            <div class="useful-links cont">
+                <div class="head">
+                    <h2>Useful Links</h2>
+                </div>
+                <div class="body">
+                    <div class="left col">
+                        <ul>
+                            <li><a href="https://www.youtube.com/watch?v=89VLfs-wpEY" target="_blank">
+                                Your First Project And Syntax</a></li>
+                            <li><a href="" target="_blank"></a></li>
+                            <li><a href="" target="_blank"></a></li>
+                            <li><a href="" target="_blank"></a></li>
+                            <li><a href="" target="_blank"></a></li>
+                        </ul>
+                    </div>
+                    <div class="right col">
+                        <ul>
+                            <li><a href="https://www.geeksforgeeks.org/types-of-css-cascading-style-sheet/" target="_blank">
+                                "Types of CSS Style Sheet"</a></li>
+                            <li><a href="" target="_blank"></a></li>
+                            <li><a href="" target="_blank"></a></li>
+                            <li><a href="" target="_blank"></a></li>
+                            <li><a href="" target="_blank"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
